@@ -12,8 +12,6 @@ import { Add } from './Pages/Add';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-
-
 import { Students } from './Pages/Student/Students';
 import { Instructors } from './Pages/Instructor/Instructors';
 
@@ -29,8 +27,8 @@ function App() {
 
     <div className="App">
       <header className="App-header">
-        <h1>Database Front-End</h1>
-        <p>computer_science_department</p>
+        <h1>DATACRUD | Database Manager</h1>
+
         <nav> 
           <BrowserRouter>
             <Routes>
@@ -43,14 +41,18 @@ function App() {
         </nav>
       </header>
       
-      <div className='reload'>
-          <h2>Update Data</h2>
-        <button className='reload-button' onClick={reloadData}>UPDATE DATA</button>
-      </div>
-      <div className='main-container'>
-        <Students />
-        <Instructors />
       
+      <div className='main-body-container'>
+        <div className='pic'>
+          <img src='img/johns-hopkins-university-1590925_640.jpg'/>
+        </div>
+      <div className='body-desc'>
+      <h2>WHAT WE DO</h2>
+      <p className='para-desc'>DATACRUD serves as a centralized repository for managing vast amounts 
+      of information related to students, faculty, courses, departments, and various administrative 
+      functions within the university ecosystem.</p>
+
+      </div>
       </div>
     </div>
   );

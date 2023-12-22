@@ -13,12 +13,26 @@
   color: white;
 }
 
-.reload-button{
-  font-size: 30px;
-  box-shadow: none;
-  text-align: right;
-  margin: 25px;
+.main-body-container{
+  background-color: rgb(178, 218, 253); //for testing
+  width: 95%;
+  margin-left: 2.5%;
+  display: block;
 
-  font-weight: 700;
-
+  .body-desc{
+    background-color: rgba(0, 255, 255, 0.285);
+    width: 30%;
+    padding: 1%;
+    
+    h2{
+      font-size: 5rem;
+      padding-bottom: 0%;
+      margin-bottom: 0;
+    }
+    .para-desc{
+      line-height: 40px;
+      font-size: medium;
+      text-align: right;
+    }
+  }
 }
