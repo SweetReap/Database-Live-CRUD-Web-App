@@ -1,0 +1,24 @@
+.App {
+  padding: 0;
+  margin: 0;
+}
+
+.App-header {
+  background-color: rgba(3, 11, 37, 0.898);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 1rem;
+  color: white;
+}
+
+.reload-button{
+  font-size: 30px;
+  box-shadow: none;
+  text-align: right;
+  margin: 25px;
+
+  font-weight: 700;
+
+}
